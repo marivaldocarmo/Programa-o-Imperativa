@@ -1,12 +1,8 @@
-// Crie uma função acaoCarro(), que receberá uma callback como parâmetro. Após isso, crie duas funções: andar() – deve exibir uma mensagem dizendo que o carro está andando – e parar() – deve exibir uma mensagem dizendo que o carro parou.
+let BoaBora=(Boa)=>bora();
 
-// Execute ambas as ações utilizando a função acaoCarro(), passando suas ações como callbacks.
+let Boa=_=>console.log('aula Show');
+let Bora=_=>console.log('Boa Aula');
 
-let acaoCarro=(funcao)=>funcao();
-
-let andar=_=>console.log('O carro está andando');
-let parar=_=>console.log('O carro parou');
-
-acaoCarro(andar);
-//acaoCarro(parar);
+BoaBora();
+//
 setTimeout(parar,3000);
